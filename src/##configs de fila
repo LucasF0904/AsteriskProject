@@ -1,0 +1,18 @@
+##configs de fila
+
+
+[nome-fila]
+musicclass = default 
+strategy = ringall
+servicelevel = 60 
+timeout = 15
+retry = 5
+weight = 0 
+maxlen = 0
+
+
+
+
+## adicionar ramal usado a fila digitando um codigo
+
+exten => 55,1,AddqueueMember(nomedafila)
