@@ -9,6 +9,7 @@
   "author": "Lucas Davi Ferreira de Faria",
   "license": "ISC",
   "dependencies": {
+    "asterisk-ami-client": "^1.1.5",
     "asterisk-manager": "^0.2.0",
     "express": "^4.17.1",
     "ssh-server": "^1.2.0"
