@@ -4,7 +4,7 @@ const http = require('http').createServer(app)
 const AmiClient = require('asterisk-ami-client');
 let client = new AmiClient();
 
-client.connect('scudi', 'dev@scudi#2021', {host: '192.168.50.129', port: 5038})
+client.connect('root', 'Srtds810@502', {host: '192.168.21.111', port: 5038})
  .then(amiConnection => {
  
      client
